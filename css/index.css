@@ -163,27 +163,38 @@ footer nav a {
     text-decoration: none;
 }
 
+.about-content{
+    border-bottom: 1px dashed black;
+}
+
+
 .about-content h3{
     font-weight: bold;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    padding-top: 14px; 
+  
 }
 
-.about-content {
-    font-weight: bold;
+.about-flex-item{
     display: flex;
-    justify-content: center;
+        flex-direction: column;
+        align-items: space-between;
+        
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        margin-left: 9px;
+        
+        
 }
 
-.dotted-line{
-        border: 5px dashed solid-black;
-    }
 
-    .first-row-content{
+    .flex-container{
         display: flex;
         justify-content: space-between;
         width: 100%;
+      
+        
     }
 
     .flex-item{
@@ -191,10 +202,55 @@ footer nav a {
         flex-direction: column;
         align-items: space-between;
         padding: 15px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        border-bottom: 1px dashed black;
+        padding-top: 25px;
         
-        border-top: 5px dashed solid-black;
     }
 
+    
  button{
+     border-radius: 5px;
+     border: 2px solid black;
+     width: 130px;
+     height: 35px;
+     background-color: white;
+     position: relative;
+     top: 15px;
+     font-weight: bold;
+     font-size: 15px;
      
+
  }
+
+ .lets-work{
+   padding-bottom: 50px;
+   padding-top: 50px;
+  
+ }
+
+.lets-work h3{
+
+ font-weight: bold;
+ display: flex;
+ justify-content: space-between;
+ padding-top: 7px; 
+}
+
+.lets-work-flex-item{
+display: flex;
+flex-direction: column;
+align-items: space-between;
+
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+margin-left: 9px;
+
+
+}
+
+footer{
+    padding-top: 15px;
+}
+
