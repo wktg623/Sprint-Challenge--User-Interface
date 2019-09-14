@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    
+}
+
+header a{
+    margin-top: 23px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +98,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-top: 20px;
     padding-bottom: 20px;  
+    font-weight: bold;
 }
 
 .middle-content {
@@ -144,3 +162,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-content h3{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-content {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.dotted-line{
+        border: 5px dashed solid-black;
+    }
+
+    .first-row-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .flex-item{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        padding: 15px;
+        
+        border-top: 5px dashed solid-black;
+    }
+
+ button{
+     
+ }
