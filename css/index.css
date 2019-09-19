@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    
+}
+
+header a{
+    margin-top: 23px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +98,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-top: 20px;
     padding-bottom: 20px;  
+    font-weight: bold;
 }
 
 .middle-content {
@@ -144,3 +162,95 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-content{
+    border-bottom: 1px dashed black;
+}
+
+
+.about-content h3{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px; 
+  
+}
+
+.about-flex-item{
+    display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        margin-left: 9px;
+        
+        
+}
+
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      
+        
+    }
+
+    .flex-item{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        padding: 15px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        border-bottom: 1px dashed black;
+        padding-top: 25px;
+        
+    }
+
+    
+ button{
+     border-radius: 5px;
+     border: 2px solid black;
+     width: 130px;
+     height: 35px;
+     background-color: white;
+     position: relative;
+     top: 15px;
+     font-weight: bold;
+     font-size: 15px;
+     
+
+ }
+
+ .lets-work{
+   padding-bottom: 50px;
+   padding-top: 50px;
+  
+ }
+
+.lets-work h3{
+
+ font-weight: bold;
+ display: flex;
+ justify-content: space-between;
+ padding-top: 7px; 
+}
+
+.lets-work-flex-item{
+display: flex;
+flex-direction: column;
+align-items: space-between;
+
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+margin-left: 9px;
+
+
+}
+
+footer{
+    padding-top: 15px;
+}
+
